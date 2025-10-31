@@ -1,0 +1,10 @@
+# Fixed-size byte buffers to simplify MCU parsing
+turtlpass.GeneratePasswordParams.entropy  	max_size:64
+turtlpass.InitializeSeedParams.seed     	max_size:64
+turtlpass.Response.data                 	max_size:512
+turtlpass.DeviceInfo.turtlpass_version      max_size:32
+turtlpass.DeviceInfo.arduino_version        max_size:16
+turtlpass.DeviceInfo.compiler_version       max_size:32
+turtlpass.DeviceInfo.nanopb_version         max_size:32
+turtlpass.DeviceInfo.board_name         	max_size:32
+turtlpass.DeviceInfo.unique_board_id        max_size:16
